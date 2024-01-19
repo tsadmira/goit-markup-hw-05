@@ -484,7 +484,7 @@ margin-right: 120px;
   letter-spacing: 0.02em;
     
 }
-.subcribe-form {
+.subcribe-container {
 
 }
 .text-in-subcribe-form {
@@ -495,8 +495,9 @@ line-height: 1.5;
 letter-spacing: 0.32px;
 margin-bottom: 16px;
 }
-.subcribe-container{
+.subcribe-form{
   display: flex;
+  gap:24px;
 
 }
 .input-email-footer {
@@ -506,33 +507,45 @@ border-radius: 4px;
 box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 background-color: transparent;
 border: 1px solid  #FFF;
-margin-right: 24px;
 display: flex;
 justify-content: center;
 padding: 0 16px;
+font-size: 12px;
+line-height: 2;
+letter-spacing: 0.04em;
+padding-left: 16px;
+color: #ffffff;
 }
 .input-email-footer::placeholder{
-
+  color: #ffffff;
 }
 .btn-subcribe {
-  display: inline-flex;
+  display: flex;
 padding: 0 24px;
 justify-content: center;
 align-items: center;
-gap: 16px;
 border-radius: 4px;
 background-color: #4D5AE5;
 border:none;
 color:#fff;
+min-width: 165px;
+height: 40px;
+font-family: "Roboto", sans-serif;
+font-size: 16px;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.04em;
+cursor: pointer;
+
 }
-.btn-subcribe span{
-  margin-left: 16px;
+/* .btn-subcribe span{
   display: flex;
   justify-content: center;
   align-items: center;
-}
+} */
 .icon-telegrem-footer{
   fill:#FFF;
+  margin-left: 16px;
 }
 .backdrop{
   width: 100%;
