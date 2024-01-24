@@ -593,8 +593,8 @@ a {
   background-color: #404bbf;
   border: none;
 }
-.close-btn:hover,
-.close-btn:focus + .close-modal-icon{
+.close-btn:hover > .close-modal-icon,
+.close-btn:focus > .close-modal-icon{
   fill: #ffffff;
 }
 .close-modal-icon {
